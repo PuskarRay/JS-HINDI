@@ -27,3 +27,30 @@ const myFunction = function(){
     console.log("Hello World");
     
 }
+
+
+//**********************************Memory
+
+//Stack(Primitive) , Heap (Non-primitive)
+
+let myYoutubename = "hiteshchaiaurcode"
+
+let anotherName = myYoutubename  // copy of values 
+anotherName = "chaiaurcode"
+
+
+console.log(myYoutubename);
+console.log(anotherName);
+
+let userOne = {
+    email:"user@gmail.com",
+    upi:"upi@ybl"
+}
+
+let userTwo = userOne // pass by reference
+
+userTwo.email = "hitesh@google.com"
+
+console.log(userOne);
+console.log(userTwo);
+
